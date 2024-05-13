@@ -37,7 +37,9 @@ const fecth = () => {
         with_page: true,
         with_total: true,
       })
+
       .cache(handleSuccessResponse)
+
       .then(handleSuccessResponse)
       .catch(() => {
         // log error
