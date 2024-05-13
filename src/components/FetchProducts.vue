@@ -3,7 +3,7 @@ import {ref} from 'vue'
 import {Product} from "@selldone/core-js/models/shop/product/product.model.ts";
 import {Category} from "@selldone/core-js/models/shop/category/category.model.ts";
 
-defineProps<{}>()
+
 
 const products_count = ref(0)
 const i_products = ref<Product.IProduct[]>([])
